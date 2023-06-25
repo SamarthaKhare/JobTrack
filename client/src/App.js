@@ -12,7 +12,7 @@ import {
 } from './pages/dashboard';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route
           path='/'
